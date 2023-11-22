@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Playfair Display, serif'
+}
+
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner-container {
+    width: 100%;
+}
+
+#banner-img {
+    width: 100%;
+}
+
+#banner-text-small {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#banner-text-big {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#contact-me {
+    position: relative;
+    text-align: center;
+}
+
+#projects {
+    text-align: center;
+}
