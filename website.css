@@ -13,8 +13,18 @@ body {
 }
 
 #banner-container {
-    width: 100%;
+    padding-top: 750px;
+    /* width: 100%; */
+    background-image: url("vals_london.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+/* #banner-text {
+
+} */
 
 #banner-img {
     width: 100%;
@@ -30,6 +40,32 @@ body {
 
 }
 
+
+#projects {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#collapsible-btn {
+    width: 100%;
+}
+
+#trippa-content {
+    padding: 0 20px;
+    display: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+#trippa-container {
+    padding: 20px;
+}
+
+#music-library-container {
+    padding: 20px;
+}
+
 #banner-text-big {
     position: absolute;
     font-family: 'Playfair Display', serif;
@@ -39,11 +75,15 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#contact-me {
-    position: relative;
+#contact-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: lightgreen;
+    overflow: hidden;
     text-align: center;
 }
 
-#projects {
-    text-align: center;
+#linkedin {
+    padding: 10px;
 }
